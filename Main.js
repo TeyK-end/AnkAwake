@@ -506,7 +506,7 @@
     }
   }
 
- window.addEventListener("DOMContentLoaded", () => {
+  window.addEventListener("DOMContentLoaded", () => {
   initializeContent();
 
   const isIndexPage =
@@ -540,7 +540,6 @@
         }
       }
     });
-  }
 
     // Đóng Pop-up Ad khi nhấn nút đóng
     document.querySelector(".close-popup")?.addEventListener("click", () => { 
